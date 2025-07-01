@@ -16,6 +16,7 @@
 </template>
 
 <script setup>
+defineOptions({ name: 'UserLogin' })
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 
@@ -45,3 +46,7 @@ button {
   padding: 8px;
 }
 </style>
+<!--
+hellooo
+ab kar isy  -->
+try kaar dobara ?
