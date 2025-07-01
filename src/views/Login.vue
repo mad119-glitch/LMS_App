@@ -46,7 +46,3 @@ button {
   padding: 8px;
 }
 </style>
-<!--
-hellooo
-ab kar isy  -->
-try kaar dobara ?
