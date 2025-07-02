@@ -5,6 +5,10 @@ import SignUp from '../views/SignUp.vue'
 const routes = [
   { path: '/', component: Login },
   { path: '/signup', component: SignUp },
+  {
+    path: '/dashboard',
+    component: () => import('../views/Dashboard.vue'),
+  },
 ]
 
 const router = createRouter({
